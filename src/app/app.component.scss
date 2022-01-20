@@ -1,0 +1,83 @@
+header{
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden
+}
+
+main figure {
+  display: inline-block;
+  margin: 0px
+}
+
+video {
+  width: 800px;
+  max-width: 90vw
+}
+
+.buttonsSection {
+  border-radius: 100px;
+  background-color: #3ca868;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.buttonsSection button {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px !important;
+  padding: 5px !important;
+  border-radius: 50%;
+  font-size: 30px !important
+}
+
+.advice {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #eee;
+  padding-left: 40px;
+  padding-right: 40px
+}
+
+
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "FabricMDL2Icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none
+}
+
+.ms-Icon--CirclePauseSolid:before {
+  content: ""
+}
+
+.ms-Icon--PlaySolid:before {
+  content: ""
+}
+
+.ms-Icon--StopSolid:before {
+  content: ""
+}
+
+footer{
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:20px;
+  a{
+    color: #3ca868 !important;
+  }
+}
