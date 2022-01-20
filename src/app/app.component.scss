@@ -1,6 +1,15 @@
 header{
   text-align: left;
   margin-bottom: 50px;
+  background-color: #3ca868;
+  color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+h1{
+  margin: 0;
 }
 
 main {
@@ -10,7 +19,8 @@ main {
   flex-wrap: nowrap;
   flex-direction: column;
   width: 100%;
-  overflow: hidden
+  overflow: hidden;
+  min-height: 70vh;
 }
 
 main figure {
@@ -75,9 +85,12 @@ video {
 
 footer{
   text-align: center;
-  padding-top:50px;
+  margin-top:30px;
+  padding-top:20px;
   padding-bottom:20px;
+  background-color: #3ca868;
+  color: #eee;
   a{
-    color: #3ca868 !important;
+    color: #20fbb4 !important;
   }
 }
